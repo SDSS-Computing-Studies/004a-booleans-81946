@@ -10,3 +10,14 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+import math
+
+n= input("Enter a number")
+n= str(n)
+
+
+if "." in n :
+    print("the number is not an integer")
+
+else:
+    print("the number is an integer")
