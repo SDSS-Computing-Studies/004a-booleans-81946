@@ -19,4 +19,4 @@ if n>0:
 elif n<0:
     print("The number is negative")
 else:
-    print("The number is 0")
+    print("The number is zero")

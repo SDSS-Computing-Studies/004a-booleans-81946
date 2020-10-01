@@ -15,3 +15,42 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+
+import math
+
+
+a= input("Enter a")
+b= input("Enter b")
+c= input("Enter c")
+a= float(a)
+b= float(b)
+c= float(c)
+
+discriminant= (pow(b,2))-(4*a*c)
+
+#if discriminant < 0:
+   # print("the equation can not be factored")
+
+
+if discriminant > 0:
+    discriminant1= float(discriminant)
+    discriminantfloatedsqr= math.sqrt(discriminant1)
+
+    discriminant2= int(discriminant)
+    discriminantintsqr= math.sqrt(discriminant2)
+    discriminantintsqr= int(discriminantintsqr)
+    if discriminantfloatedsqr==discriminantintsqr:
+        print("the equation can be factored")
+    else:
+        print("the equation can not be factored")
+
+else:
+    print("the equation can not be factored")
+
+#q= input(
+#a= float(q) 
+#b= math.sqrt(a)     
+#d= int(q)
+#c= math.sqrt(d)
+#c= int(c)
