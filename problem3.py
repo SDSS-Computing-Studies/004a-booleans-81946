@@ -23,7 +23,3 @@ if "12345password" in "Enter password":
 
 else:
     print("invalid user")
-
-
-
-
