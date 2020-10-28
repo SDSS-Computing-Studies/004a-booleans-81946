@@ -29,14 +29,13 @@ c= float(c)
 
 discriminant= (pow(b,2))-(4*a*c)
 
-#if discriminant < 0:
-   # print("the equation can not be factored")
 
 
-if discriminant > 0:
+if discriminant >= 0:
     discriminant1= float(discriminant)
+    print(discriminant1)
     discriminantfloatedsqr= math.sqrt(discriminant1)
-
+    print(discriminantfloatedsqr)
     discriminant2= int(discriminant)
     discriminantintsqr= math.sqrt(discriminant2)
     discriminantintsqr= int(discriminantintsqr)

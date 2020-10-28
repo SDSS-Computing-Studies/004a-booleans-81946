@@ -21,7 +21,7 @@ n= float(n)
 o= float(o)
 q= float(q)
 
-if n < 0 and n < q:
+if n < o and n < q:
     n= n
 
 if o <n and o < q:
