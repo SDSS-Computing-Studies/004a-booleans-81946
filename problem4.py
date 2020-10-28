@@ -35,17 +35,19 @@ if q < o and q < n:
 # b = middle number
 
 # then you can go ahead and see if a**2 + b**2 == c**2
-
+print(n, q, o, sep=" ")
 
 a= (pow(n,2))
 b= (pow(q,2))
 
 c= (pow(o,2))
 
-ee= a+b
+ee= a+b # expected hypotenuse
 
 bot= math.sqrt((c/1.02)*c)
+# lower limit
 bo= bot - c
+#bo = lower limit - actual hypotenuse
 p= c-bo
 
 

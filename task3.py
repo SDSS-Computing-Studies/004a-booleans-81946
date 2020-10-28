@@ -26,6 +26,6 @@ if n>=1000:
 elif n>=100:
     print("2")
 elif n>=10:
-    print("The number is 10 or a number up to 100")
+    print("1")
 else:
-    print("The number is 0 or a number up to 100")
+    print("0")
