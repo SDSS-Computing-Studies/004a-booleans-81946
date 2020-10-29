@@ -13,6 +13,7 @@
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
 import math
+x=1
 
 n= input("Enter a side length")
 o= input("Enter another side length")
@@ -20,24 +21,26 @@ q= input("Enter another side length")
 n= float(n)
 o= float(o)
 q= float(q)
+#Lowest to highest
 
-if n < o and n < q:
-    n= n
+if q < o and q > n:
+    x= q
 
-if o <n and o < q:
-    o= n
+if n < o and n > q:
+    x= n
 
-if q < o and q < n:
-    q= n
+if o < n and o > q:
+    x= o
+
 # decide which is the hypotenuse
 # c= whichever one is the hypotenuse
 # a = smallest
 # b = middle number
 
 # then you can go ahead and see if a**2 + b**2 == c**2
-print(n, q, o, sep=" ")
 
-a= (pow(n,2))
+
+a= (pow(x,2))
 b= (pow(q,2))
 
 c= (pow(o,2))
