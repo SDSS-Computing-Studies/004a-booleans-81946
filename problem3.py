@@ -14,17 +14,12 @@ n= str(n)
 
 
 if "admin" in n:
-    x= "12345password"
     p= input("Enter password")
     
 
-if x= "12345password":
+if "12345password" in "Enter password":
     print(p)
     print("Access granted")
 
 else:
     print("invalid user")
-
-
-
-
